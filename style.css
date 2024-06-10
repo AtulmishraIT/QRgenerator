@@ -68,3 +68,10 @@ body{
     height: auto;
     mix-blend-mode: multiply;
 }
+
+.design{
+    margin-top: 2rem;
+}
+.design a{
+    text-decoration: none;
+}
