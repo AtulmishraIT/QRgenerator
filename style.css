@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: pink;
+}
+
+.main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 11rem;
+    width: 15rem;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.head{
+    text-align: center;
+    padding: 1rem;
+}
+
+.inp{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+}
+
+.inp input{
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.inp button{
+    margin-top: 1rem;
+    width: 15rem;
+    padding: 0.9rem;
+    border-radius: 50px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    background-color: purple;
+    cursor: pointer;
+}
+
+.qr{
+    margin-top: 2rem;
+    width: auto;
+    padding: 1rem;
+    background-color: beige;
+}
+
+.qr img{
+    width: auto;
+    height: auto;
+    mix-blend-mode: multiply;
+}
